@@ -1,0 +1,28 @@
+{
+  "name": "asyncpipe",
+  "version": "0.0.0",
+  "description": "\u0016Functional composition library for asynchronous functions",
+  "main": "dist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hifaraz@github.com/HiFaraz/asyncpipe.git"
+  },
+  "keywords": [
+    "async",
+    "functional",
+    "composition",
+    "pipe",
+    "flow",
+    "functions",
+    "control"
+  ],
+  "author": "Faraz Syed <hello@farazsyed.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HiFaraz/asyncpipe/issues"
+  },
+  "homepage": "https://github.com/HiFaraz/asyncpipe#readme"
+}
