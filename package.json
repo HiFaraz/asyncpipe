@@ -1,11 +1,15 @@
 {
   "name": "asyncpipe",
-  "version": "0.0.0",
-  "description": "\u0016Functional composition library for asynchronous functions",
+  "version": "0.1.0",
+  "description": "Functional composition library for asynchronous functions",
   "main": "dist",
   "scripts": {
+    "prebuild": "npm run lint",
+    "build": "babel src --out-dir dist --copy-files --source-maps inline",
+    "lint": "eslint --fix src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "precommit": "build",
   "repository": {
     "type": "git",
     "url": "git+https://hifaraz@github.com/HiFaraz/asyncpipe.git"
@@ -24,5 +28,12 @@
   "bugs": {
     "url": "https://github.com/HiFaraz/asyncpipe/issues"
   },
-  "homepage": "https://github.com/HiFaraz/asyncpipe#readme"
+  "homepage": "https://github.com/HiFaraz/asyncpipe#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-latest": "^6.22.0",
+    "eslint": "^3.13.1",
+    "pre-commit": "^1.2.2"
+  }
 }
