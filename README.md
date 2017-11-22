@@ -1,10 +1,11 @@
 # asyncpipe
 
-Compose asynchronous functions and Promises in JavaScript
+Compose asynchronous functions in JavaScript
 
 [![Build Status][travis-image]][travis-url]
+[![Maintainability][maintainability-image]][maintainability-url]
 
-Like lodash.flow, but for Promises!
+Like `lodash.flow`, but for Promises!
 
 ## Installation
 
@@ -30,3 +31,5 @@ import asyncpipe from 'asyncpipe';
 
 [travis-image]: https://travis-ci.org/HiFaraz/asyncpipe.svg?branch=master
 [travis-url]: https://travis-ci.org/HiFaraz/asyncpipe
+[maintainability-image]: https://api.codeclimate.com/v1/badges/c7e61e4de474c6b264dc/maintainability
+[maintainability-url]: https://codeclimate.com/github/HiFaraz/asyncpipe/maintainability
