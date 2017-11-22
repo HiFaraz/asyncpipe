@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://hifaraz@github.com/HiFaraz/asyncpipe.git"
+    "url": "git+https://github.com/HiFaraz/asyncpipe.git"
   },
   "keywords": [
     "async",
